@@ -77,7 +77,7 @@ def evaluate_dataset_chilean(model, device, params: TrainingParams, database_set
     - Database来自sessions 160-189（30个sessions，完全独立）
     - Query来自sessions 190-209（20个sessions，完全独立）
     - 每个query在合并后的所有database中搜索最近邻
-    - 正样本：地理距离10米内的点云
+    - 正样本：地理距离7米内的点云
     """
 
     model.eval()
